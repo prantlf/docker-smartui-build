@@ -1,0 +1,7 @@
+.DS_Store
+.hadolint.yaml
+Dockerfile
+LICENSE
+Makefile
+README.md
+node_modules
