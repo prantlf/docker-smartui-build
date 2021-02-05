@@ -12,7 +12,7 @@ update ::
 
 build ::
 	docker build -t smartui-build .
-	docker tag smartui-build prantlf/smartui-build:21.2
+	docker tag smartui-build prantlf/smartui-build:21.3
 	docker tag smartui-build prantlf/smartui-build:latest
 
 run ::
@@ -22,5 +22,5 @@ login ::
 	docker login --username=prantlf
 
 push ::
-	docker push prantlf/smartui-build:21.2
+	docker push prantlf/smartui-build:21.3
 	docker push prantlf/smartui-build:latest

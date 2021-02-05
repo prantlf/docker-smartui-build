@@ -1,7 +1,7 @@
 {
   "name": "docker-smartui-build",
   "description": "The \"inner core\" of Smart UI core.",
-  "version": "21.2.0",
+  "version": "21.3.0",
   "author": "Ferdinand Prantl <prantlf@gmail.come",
   "license": "ISC",
   "homepage": "https://gitlab.otxlab.net/smartui/nucleus#smart-ui-nucleus",

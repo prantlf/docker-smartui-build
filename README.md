@@ -10,7 +10,7 @@
 
 A new image will be released for every next quarter with the tag `<year>.<quarter>`. It is intended to be used for the development of a project, that will be released in that quarter.
 
-[`latest`], [`21.2`]
+[`latest`], [`21.3`], [`21.2`]
 
 ## Installation
 
@@ -18,13 +18,13 @@ You will likely choose a tag with the version number of your release target quar
 
     docker pull prantlf/smartui-build
     # or
-    docker pull prantlf/smartui-build:21.2
+    docker pull prantlf/smartui-build:21.3
 
 ## Usage
 
 Enter the root directory of a Smart UI project, install its dependencies, build and test it:
 
-    docker run --rm -it -v "$(pwd)":/app prantlf/smartui-build:21.2 build
+    docker run --rm -it -v "$(pwd)":/app prantlf/smartui-build:21.3 build
 
 Except for `build`, you can execute `compile` and `test`, which map to the according Grunt tasks. Otherwise you can run an executable by appending its name on the command line:
 
@@ -64,6 +64,7 @@ Licensed under the ISC license.
 [Docker]: https://www.docker.com/
 [This image]: https://hub.docker.com/repository/docker/prantlf/smartui-build
 [`latest`]: https://hub.docker.com/repository/docker/prantlf/smartui-build/tags
+[`21.3`]: https://hub.docker.com/repository/docker/prantlf/smartui-build?tab=tags&name=21.3
 [`21.2`]: https://hub.docker.com/repository/docker/prantlf/smartui-build?tab=tags&name=21.2
 [Node.js packages (NPM modules)]: https://docs.npmjs.com/about-packages-and-modules
 [Git]: https://git-scm.com/
