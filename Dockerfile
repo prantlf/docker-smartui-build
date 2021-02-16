@@ -2,7 +2,7 @@ FROM node:12-alpine3.12
 LABEL maintainer="Ferdinand Prantl <prantlf@gmail.com>"
 
 # tools for inspection, installing dependencies from git and running tests in the browser
-RUN apk --no-cache add gawk git chromium
+RUN apk --no-cache add curl gawk git chromium
 
 # global node build tools
 RUN npm i -g grunt-cli@1
