@@ -1,6 +1,0 @@
-reject:
-  - chai
-  - jasmine-core
-  - karma-jasmine
-  - sinon
-  - sinon-chai
