@@ -5,7 +5,7 @@ LABEL maintainer="Ferdinand Prantl <prantlf@gmail.com>"
 RUN apk --no-cache add curl zip unzip gawk git chromium
 
 # install a new stable npm with package log fixed and the global node build tools
-RUN npm i -g npm@7 && npm i -g grunt-cli@1
+RUN npm i -g grunt-cli@1
 
 # prepare the build directory
 RUN mkdir -p /app
